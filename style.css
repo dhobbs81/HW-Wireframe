@@ -1,0 +1,5 @@
+/* The following properties apply to all elements */
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
