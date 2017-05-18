@@ -3,3 +3,48 @@
 	box-sizing: border-box;
 	text-align: center;
 }
+
+body {
+	width: 960px;
+	border: 5px solid blue;
+}
+
+.sections {
+	margin: auto;
+	width: 495px;
+	border: 5px solid red;
+	background-color: #777;
+	color: #ebebeb;
+}
+
+.sections:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#headerstyle {
+	border: 2px solid #5f5f5f;
+}
+
+#navstyle {
+	border: 2px solid #5f5f5f;
+}
+
+#asidestyle {
+	border: 2px solid #5f5f5f;
+}
+
+#sectionstyle {
+	border: 2px solid #5f5f5f;
+}
+
+#articlestyle {
+	float: left;
+	border: 2px solid #5f5f5f;
+}
+
+#footerstyle {
+	clear: both;
+	border: 2px solid #5f5f5f;
+}
